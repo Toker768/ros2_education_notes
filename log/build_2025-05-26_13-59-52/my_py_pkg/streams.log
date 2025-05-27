@@ -1,0 +1,81 @@
+[0.503s] Invoking command in '/home/tokerali/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tokerali/ros2_ws/build/my_py_pkg/build install --record /home/tokerali/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.655s] running egg_info
+[0.655s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.665s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.665s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.665s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.666s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.666s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.666s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.686s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.686s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.687s] running build
+[0.687s] running build_py
+[0.687s] creating /home/tokerali/ros2_ws/build/my_py_pkg/build
+[0.687s] creating /home/tokerali/ros2_ws/build/my_py_pkg/build/lib
+[0.687s] creating /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/number_publisher.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/robot_news_station.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/template_python_node.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/add_two_ints_server.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/led_panel.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/number_counter.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/__init__.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/add_two_ints_client.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/my_first_node.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/battery.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/smartphone.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.687s] copying my_py_pkg/hardware_status_publisher.py -> /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.688s] running install
+[0.692s] running install_lib
+[0.702s] creating /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.702s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.702s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.702s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.702s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/battery.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] copying /home/tokerali/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.703s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[0.703s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-312.pyc
+[0.704s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[0.704s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+[0.704s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[0.704s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-312.pyc
+[0.705s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[0.705s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[0.705s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-312.pyc
+[0.705s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[0.706s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/battery.py to battery.cpython-312.pyc
+[0.706s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[0.706s] byte-compiling /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-312.pyc
+[0.707s] running install_data
+[0.707s] creating /home/tokerali/ros2_ws/install/my_py_pkg/share/ament_index
+[0.707s] creating /home/tokerali/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.707s] creating /home/tokerali/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.707s] copying resource/my_py_pkg -> /home/tokerali/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.707s] copying package.xml -> /home/tokerali/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.707s] running install_egg_info
+[0.718s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.718s] running install_scripts
+[0.796s] Installing add_two_ints_client script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.796s] Installing add_two_ints_client_no_oop script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing add_two_ints_server script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing battery script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing hw_status_publisher script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing iha_control script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing led_panel script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing number_counter script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing number_publisher script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing py_node script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing robot_news_station script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] Installing smartphone script to /home/tokerali/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.797s] writing list of installed files to '/home/tokerali/ros2_ws/build/my_py_pkg/install.log'
+[0.817s] Invoked command in '/home/tokerali/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/tokerali/ros2_ws/build/my_py_pkg/build install --record /home/tokerali/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

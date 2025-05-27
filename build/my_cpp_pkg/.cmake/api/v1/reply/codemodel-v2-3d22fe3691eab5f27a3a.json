@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6e8464da340dc479eb00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client-9b2b2a95c4330272747f.json",
+					"name" : "add_two_ints_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client_no_oop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client_no_oop-bfef5ab2aafc3d4b5c29.json",
+					"name" : "add_two_ints_client_no_oop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_server-3f0b00106dafd439a8e5.json",
+					"name" : "add_two_ints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery-9fd1fd430b77c3943453.json",
+					"name" : "battery",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_node-edf570d115a497f4dfb4.json",
+					"name" : "cpp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw_status_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw_status_publisher-868dd9023cfe2918ef7c.json",
+					"name" : "hw_status_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "led_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-led_panel-3af5ecddad816d11a215.json",
+					"name" : "led_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_cpp_pkg_uninstall-7483449f28cc39206734.json",
+					"name" : "my_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_counter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_counter-a65b36f2347b1f5647fd.json",
+					"name" : "number_counter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_publisher-31bc68dd7bfd20afb34b.json",
+					"name" : "number_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_news_station::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_news_station-d7309702dc786d8b0266.json",
+					"name" : "robot_news_station",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smartphone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smartphone-7e5b519c663314622f38.json",
+					"name" : "smartphone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bed616acc53974ac3ac6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tokerali/ros2_ws/build/my_cpp_pkg",
+		"source" : "/home/tokerali/ros2_ws/src/my_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

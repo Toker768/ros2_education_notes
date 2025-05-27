@@ -1,0 +1,106 @@
+[0.010s] Invoking command in '/home/tokerali/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tokerali/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/tokerali/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tokerali/ros2_ws/install/my_cpp_pkg
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.128s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.337s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.341s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.561s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.606s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.619s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.720s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.724s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.822s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.841s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.864s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.930s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.973s] -- Found my_robot_interfaces: 0.0.0 (/home/tokerali/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.053s] -- Configuring done (1.0s)
+[1.082s] -- Generating done (0.0s)
+[1.092s] -- Build files have been written to: /home/tokerali/ros2_ws/build/my_cpp_pkg
+[1.101s] Invoked command in '/home/tokerali/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tokerali/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/tokerali/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tokerali/ros2_ws/install/my_cpp_pkg
+[1.102s] Invoking command in '/home/tokerali/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tokerali/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tokerali/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[1.154s] [ 22%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[1.154s] [ 22%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.154s] [ 22%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[1.154s] [ 22%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.154s] [ 22%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.154s] [ 27%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.154s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.155s] [ 36%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[1.155s] [ 40%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[1.156s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[1.156s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[3.576s] [ 54%] [32m[1mLinking CXX executable cpp_node[0m
+[3.734s] [ 54%] Built target cpp_node
+[4.215s] [ 59%] [32m[1mLinking CXX executable battery[0m
+[4.346s] [ 59%] Built target battery
+[4.583s] [ 63%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[4.594s] [ 68%] [32m[1mLinking CXX executable number_publisher[0m
+[4.654s] [ 72%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[4.726s] [ 72%] Built target add_two_ints_server
+[4.758s] [ 72%] Built target number_publisher
+[4.784s] [ 72%] Built target add_two_ints_client
+[4.924s] [ 77%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[5.046s] [ 77%] Built target add_two_ints_client_no_oop
+[5.297s] [ 81%] [32m[1mLinking CXX executable robot_news_station[0m
+[5.376s] [ 86%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[5.439s] [ 86%] Built target robot_news_station
+[5.509s] [ 86%] Built target hw_status_publisher
+[6.003s] [ 90%] [32m[1mLinking CXX executable led_panel[0m
+[6.145s] [ 90%] Built target led_panel
+[6.823s] [ 95%] [32m[1mLinking CXX executable smartphone[0m
+[7.025s] [ 95%] Built target smartphone
+[7.328s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[7.545s] [100%] Built target number_counter
+[7.559s] Invoked command in '/home/tokerali/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tokerali/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tokerali/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[7.560s] Invoking command in '/home/tokerali/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tokerali/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tokerali/ros2_ws/build/my_cpp_pkg
+[7.570s] -- Install configuration: ""
+[7.570s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[7.570s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[7.570s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[7.571s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[7.571s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[7.575s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[7.575s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[7.577s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[7.577s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[7.581s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[7.581s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[7.582s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[7.582s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[7.583s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[7.583s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[7.584s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[7.584s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[7.585s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""
+[7.585s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[7.587s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel" to ""
+[7.587s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+[7.588s] -- Set non-toolchain portion of runtime path of "/home/tokerali/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery" to ""
+[7.588s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[7.588s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[7.588s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[7.588s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[7.588s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[7.588s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[7.588s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[7.589s] -- Installing: /home/tokerali/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[7.592s] Invoked command in '/home/tokerali/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tokerali/ros2_ws/install/my_robot_interfaces:/home/tokerali/ros2_ws/install/my_robot_bringup:/home/tokerali/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tokerali/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tokerali/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tokerali/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tokerali/ros2_ws/build/my_cpp_pkg
